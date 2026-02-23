@@ -1,0 +1,49 @@
+{
+  "ALL_PARAMETERS": {
+    "TC-13.2-01": {
+      "description": "Measure response time for generating a full Fortune 500 company profile",
+      "input_type": "Fortune 500 public company entity",
+      "validation": {
+        "type": "response_time_sla",
+        "max_seconds": "X"
+      },
+      "expected_result": "Total generation time remains within defined SLA for high-complexity entities (e.g., ≤ X seconds)."
+    },
+    "TC-13.2-02": {
+      "description": "Measure response time for generating a startup company profile",
+      "input_type": "Early-stage private startup entity",
+      "validation": {
+        "type": "response_time_sla",
+        "complexity": "low"
+      },
+      "expected_result": "Total generation time is significantly lower than large enterprises and within low-complexity SLA."
+    },
+    "TC-13.2-03": {
+      "description": "Compare response time between public and private companies of similar size",
+      "input_type": "Public vs Private mid-size companies",
+      "validation": {
+        "type": "comparative_response_time",
+        "expected_relation": "public >= private"
+      },
+      "expected_result": "Public company generation time ≥ Private company due to additional disclosures and data volume."
+    },
+    "TC-13.2-04": {
+      "description": "Detect performance regression when entity complexity increases",
+      "input_type": "Incrementally enriched company record",
+      "validation": {
+        "type": "scalability_check",
+        "expected_scaling": "linear_or_sublinear"
+      },
+      "expected_result": "Response time scales linearly or sub-linearly; no exponential degradation observed."
+    },
+    "TC-13.2-05": {
+      "description": "Validate consistency of response time across repeated runs",
+      "input_type": "Same entity generated multiple times",
+      "validation": {
+        "type": "variance_check",
+        "tolerance_percent": 10
+      },
+      "expected_result": "Response time variance remains within acceptable tolerance (e.g., ±10%)."
+    }
+  }
+}
