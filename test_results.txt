@@ -1,0 +1,1494 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.0.2, pluggy-1.6.0 -- /home/kapil/Desktop/pytest/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/kapil/Desktop/pytest
+collecting ... collected 116 items
+
+tests/test_company_validation.py::test_all_companies_validation[0] FAILED [  0%]
+tests/test_company_validation.py::test_all_companies_validation[1] FAILED [  1%]
+tests/test_company_validation.py::test_all_companies_validation[2] FAILED [  2%]
+tests/test_company_validation.py::test_all_companies_validation[3] FAILED [  3%]
+tests/test_company_validation.py::test_all_companies_validation[4] FAILED [  4%]
+tests/test_company_validation.py::test_all_companies_validation[5] FAILED [  5%]
+tests/test_company_validation.py::test_all_companies_validation[6] FAILED [  6%]
+tests/test_company_validation.py::test_all_companies_validation[7] FAILED [  6%]
+tests/test_company_validation.py::test_all_companies_validation[8] FAILED [  7%]
+tests/test_company_validation.py::test_all_companies_validation[9] FAILED [  8%]
+tests/test_company_validation.py::test_all_companies_validation[10] FAILED [  9%]
+tests/test_company_validation.py::test_all_companies_validation[11] FAILED [ 10%]
+tests/test_company_validation.py::test_all_companies_validation[12] FAILED [ 11%]
+tests/test_company_validation.py::test_all_companies_validation[13] FAILED [ 12%]
+tests/test_company_validation.py::test_all_companies_validation[14] FAILED [ 12%]
+tests/test_company_validation.py::test_all_companies_validation[15] FAILED [ 13%]
+tests/test_company_validation.py::test_all_companies_validation[16] FAILED [ 14%]
+tests/test_company_validation.py::test_all_companies_validation[17] FAILED [ 15%]
+tests/test_company_validation.py::test_all_companies_validation[18] FAILED [ 16%]
+tests/test_company_validation.py::test_all_companies_validation[19] FAILED [ 17%]
+tests/test_company_validation.py::test_all_companies_validation[20] FAILED [ 18%]
+tests/test_company_validation.py::test_all_companies_validation[21] FAILED [ 18%]
+tests/test_company_validation.py::test_all_companies_validation[22] FAILED [ 19%]
+tests/test_company_validation.py::test_all_companies_validation[23] FAILED [ 20%]
+tests/test_company_validation.py::test_all_companies_validation[24] FAILED [ 21%]
+tests/test_company_validation.py::test_all_companies_validation[25] FAILED [ 22%]
+tests/test_company_validation.py::test_all_companies_validation[26] FAILED [ 23%]
+tests/test_company_validation.py::test_all_companies_validation[27] FAILED [ 24%]
+tests/test_company_validation.py::test_all_companies_validation[28] FAILED [ 25%]
+tests/test_company_validation.py::test_all_companies_validation[29] FAILED [ 25%]
+tests/test_company_validation.py::test_all_companies_validation[30] FAILED [ 26%]
+tests/test_company_validation.py::test_all_companies_validation[31] FAILED [ 27%]
+tests/test_company_validation.py::test_all_companies_validation[32] FAILED [ 28%]
+tests/test_company_validation.py::test_all_companies_validation[33] FAILED [ 29%]
+tests/test_company_validation.py::test_all_companies_validation[34] FAILED [ 30%]
+tests/test_company_validation.py::test_all_companies_validation[35] FAILED [ 31%]
+tests/test_company_validation.py::test_all_companies_validation[36] FAILED [ 31%]
+tests/test_company_validation.py::test_all_companies_validation[37] FAILED [ 32%]
+tests/test_company_validation.py::test_all_companies_validation[38] FAILED [ 33%]
+tests/test_company_validation.py::test_all_companies_validation[39] FAILED [ 34%]
+tests/test_company_validation.py::test_all_companies_validation[40] FAILED [ 35%]
+tests/test_company_validation.py::test_all_companies_validation[41] FAILED [ 36%]
+tests/test_company_validation.py::test_all_companies_validation[42] FAILED [ 37%]
+tests/test_company_validation.py::test_all_companies_validation[43] FAILED [ 37%]
+tests/test_company_validation.py::test_all_companies_validation[44] FAILED [ 38%]
+tests/test_company_validation.py::test_all_companies_validation[45] FAILED [ 39%]
+tests/test_company_validation.py::test_all_companies_validation[46] FAILED [ 40%]
+tests/test_company_validation.py::test_all_companies_validation[47] FAILED [ 41%]
+tests/test_company_validation.py::test_all_companies_validation[48] FAILED [ 42%]
+tests/test_company_validation.py::test_all_companies_validation[49] FAILED [ 43%]
+tests/test_company_validation.py::test_all_companies_validation[50] FAILED [ 43%]
+tests/test_company_validation.py::test_all_companies_validation[51] FAILED [ 44%]
+tests/test_company_validation.py::test_all_companies_validation[52] FAILED [ 45%]
+tests/test_company_validation.py::test_all_companies_validation[53] FAILED [ 46%]
+tests/test_company_validation.py::test_all_companies_validation[54] FAILED [ 47%]
+tests/test_company_validation.py::test_all_companies_validation[55] FAILED [ 48%]
+tests/test_company_validation.py::test_all_companies_validation[56] FAILED [ 49%]
+tests/test_company_validation.py::test_all_companies_validation[57] FAILED [ 50%]
+tests/test_company_validation.py::test_all_companies_validation[58] FAILED [ 50%]
+tests/test_company_validation.py::test_all_companies_validation[59] FAILED [ 51%]
+tests/test_company_validation.py::test_all_companies_validation[60] FAILED [ 52%]
+tests/test_company_validation.py::test_all_companies_validation[61] FAILED [ 53%]
+tests/test_company_validation.py::test_all_companies_validation[62] FAILED [ 54%]
+tests/test_company_validation.py::test_all_companies_validation[63] FAILED [ 55%]
+tests/test_company_validation.py::test_all_companies_validation[64] FAILED [ 56%]
+tests/test_company_validation.py::test_all_companies_validation[65] FAILED [ 56%]
+tests/test_company_validation.py::test_all_companies_validation[66] FAILED [ 57%]
+tests/test_company_validation.py::test_all_companies_validation[67] FAILED [ 58%]
+tests/test_company_validation.py::test_all_companies_validation[68] FAILED [ 59%]
+tests/test_company_validation.py::test_all_companies_validation[69] FAILED [ 60%]
+tests/test_company_validation.py::test_all_companies_validation[70] FAILED [ 61%]
+tests/test_company_validation.py::test_all_companies_validation[71] FAILED [ 62%]
+tests/test_company_validation.py::test_all_companies_validation[72] FAILED [ 62%]
+tests/test_company_validation.py::test_all_companies_validation[73] FAILED [ 63%]
+tests/test_company_validation.py::test_all_companies_validation[74] FAILED [ 64%]
+tests/test_company_validation.py::test_all_companies_validation[75] FAILED [ 65%]
+tests/test_company_validation.py::test_all_companies_validation[76] FAILED [ 66%]
+tests/test_company_validation.py::test_all_companies_validation[77] FAILED [ 67%]
+tests/test_company_validation.py::test_all_companies_validation[78] FAILED [ 68%]
+tests/test_company_validation.py::test_all_companies_validation[79] FAILED [ 68%]
+tests/test_company_validation.py::test_all_companies_validation[80] FAILED [ 69%]
+tests/test_company_validation.py::test_all_companies_validation[81] FAILED [ 70%]
+tests/test_company_validation.py::test_all_companies_validation[82] FAILED [ 71%]
+tests/test_company_validation.py::test_all_companies_validation[83] FAILED [ 72%]
+tests/test_company_validation.py::test_all_companies_validation[84] FAILED [ 73%]
+tests/test_company_validation.py::test_all_companies_validation[85] FAILED [ 74%]
+tests/test_company_validation.py::test_all_companies_validation[86] FAILED [ 75%]
+tests/test_company_validation.py::test_all_companies_validation[87] FAILED [ 75%]
+tests/test_company_validation.py::test_all_companies_validation[88] FAILED [ 76%]
+tests/test_company_validation.py::test_all_companies_validation[89] FAILED [ 77%]
+tests/test_company_validation.py::test_all_companies_validation[90] FAILED [ 78%]
+tests/test_company_validation.py::test_all_companies_validation[91] FAILED [ 79%]
+tests/test_company_validation.py::test_all_companies_validation[92] FAILED [ 80%]
+tests/test_company_validation.py::test_all_companies_validation[93] FAILED [ 81%]
+tests/test_company_validation.py::test_all_companies_validation[94] FAILED [ 81%]
+tests/test_company_validation.py::test_all_companies_validation[95] FAILED [ 82%]
+tests/test_company_validation.py::test_all_companies_validation[96] FAILED [ 83%]
+tests/test_company_validation.py::test_all_companies_validation[97] FAILED [ 84%]
+tests/test_company_validation.py::test_all_companies_validation[98] FAILED [ 85%]
+tests/test_company_validation.py::test_all_companies_validation[99] FAILED [ 86%]
+tests/test_company_validation.py::test_all_companies_validation[100] FAILED [ 87%]
+tests/test_company_validation.py::test_all_companies_validation[101] FAILED [ 87%]
+tests/test_company_validation.py::test_all_companies_validation[102] FAILED [ 88%]
+tests/test_company_validation.py::test_all_companies_validation[103] FAILED [ 89%]
+tests/test_company_validation.py::test_all_companies_validation[104] FAILED [ 90%]
+tests/test_company_validation.py::test_all_companies_validation[105] FAILED [ 91%]
+tests/test_company_validation.py::test_all_companies_validation[106] PASSED [ 92%]
+tests/test_company_validation.py::test_all_companies_validation[107] FAILED [ 93%]
+tests/test_company_validation.py::test_all_companies_validation[108] FAILED [ 93%]
+tests/test_company_validation.py::test_all_companies_validation[109] FAILED [ 94%]
+tests/test_company_validation.py::test_all_companies_validation[110] FAILED [ 95%]
+tests/test_company_validation.py::test_all_companies_validation[111] FAILED [ 96%]
+tests/test_company_validation.py::test_all_companies_validation[112] PASSED [ 97%]
+tests/test_company_validation.py::test_all_companies_validation[113] FAILED [ 98%]
+tests/test_company_validation.py::test_all_companies_validation[114] FAILED [ 99%]
+tests/test_company_validation.py::test_all_companies_validation[115] FAILED [100%]
+
+=================================== FAILURES ===================================
+_______________________ test_all_companies_validation[0] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive,strong global brand, high enterprise trust not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Accenture plc' (Row 2): brand_sentiment_score: Very Positive,strong global brand, high enterprise trust not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+_______________________ test_all_companies_validation[1] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive,strong enterprise trust and AI expertise perception not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Fractal Analytics Private Limited' (Row 3): brand_sentiment_score: Positive,strong enterprise trust and AI expertise perception not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5'
+_______________________ test_all_companies_validation[2] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive,strong enterprise trust and technology leadership perception not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Oracle India Private Limited' (Row 4): brand_sentiment_score: Very Positive,strong enterprise trust and technology leadership perception not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+_______________________ test_all_companies_validation[3] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive,strong global trust and innovation leadership not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.4/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Google LLC (Subsidiary of Alphabet Inc.)' (Row 5): brand_sentiment_score: Very Positive,strong global trust and innovation leadership not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.4/5'
+_______________________ test_all_companies_validation[4] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive,premium brand perception and strong customer loyalty not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Apple Inc.' (Row 6): brand_sentiment_score: Very Positive,premium brand perception and strong customer loyalty not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+_______________________ test_all_companies_validation[5] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive,strong institutional trust and regulatory reputation not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Mitsubishi UFJ Financial Group, Inc.' (Row 7): brand_sentiment_score: Positive,strong institutional trust and regulatory reputation not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+_______________________ test_all_companies_validation[6] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive (4.5/5) - Strong trust in Australia  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5 ' | net_promoter_score sentiment: could not convert string to float: '1 in Consumer, Business and Digital'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Commonwealth Bank of Australia' (Row 8): brand_sentiment_score: Positive (4.5/5) - Strong trust in Australia  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5 ' | net_promoter_score sentiment: could not convert string to float: '1 in Consumer, Business and Digital'
+_______________________ test_all_companies_validation[7] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive for program innovation; Mixed on internal work culture not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'KALVI CAREER EDUCATION PRIVATE LIMITED' (Row 9): brand_sentiment_score: Positive for program innovation; Mixed on internal work culture not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+_______________________ test_all_companies_validation[8] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive,strong enterprise credibility not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Larsen & Toubro Infotech Limited' (Row 10): brand_sentiment_score: Positive,strong enterprise credibility not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+_______________________ test_all_companies_validation[9] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive,strong enterprise trust not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Tata Consultancy Services Limited' (Row 11): brand_sentiment_score: Positive,strong enterprise trust not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+______________________ test_all_companies_validation[10] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Infosys Limited' (Row 12): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+______________________ test_all_companies_validation[11] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive (7.8/10) not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5' | net_promoter_score sentiment: could not convert string to float: '60–75'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Cloudera Data Platform India Private Limited' (Row 13): brand_sentiment_score: Positive (7.8/10) not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5' | net_promoter_score sentiment: could not convert string to float: '60–75'
+______________________ test_all_companies_validation[12] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5' | net_promoter_score sentiment: could not convert string to float: '65–75'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Guidewire Software, Inc.' (Row 14): brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5' | net_promoter_score sentiment: could not convert string to float: '65–75'
+______________________ test_all_companies_validation[13] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive (8/10) - Based on reviews and news analysis not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Amazon.com, Inc.' (Row 15): brand_sentiment_score: Positive (8/10) - Based on reviews and news analysis not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+______________________ test_all_companies_validation[14] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive (4.8/5) - Strong Gartner rating, growth trajectory not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5' | net_promoter_score sentiment: could not convert string to float: '45+'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Llama Logisol Private Limited' (Row 16): brand_sentiment_score: Positive (4.8/5) - Strong Gartner rating, growth trajectory not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5' | net_promoter_score sentiment: could not convert string to float: '45+'
+______________________ test_all_companies_validation[15] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive (4.7/5) - Market leader  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5 '
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Swiggy Limited' (Row 17): brand_sentiment_score: Very Positive (4.7/5) - Market leader  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5 '
+______________________ test_all_companies_validation[16] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive,strong student trust not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Leap Finance Private Limited' (Row 18): brand_sentiment_score: Positive,strong student trust not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+______________________ test_all_companies_validation[17] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 90/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.4/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Cisco Systems, Inc.' (Row 19): brand_sentiment_score: 90/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.4/5'
+______________________ test_all_companies_validation[18] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 89/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Volvo Group' (Row 20): brand_sentiment_score: 89/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+______________________ test_all_companies_validation[19] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 87/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Amadeus IT Group' (Row 21): brand_sentiment_score: 87/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+______________________ test_all_companies_validation[20] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 86/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'NielsenIQ' (Row 22): brand_sentiment_score: 86/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+______________________ test_all_companies_validation[21] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 88/100 not in ['Positive', 'Neutral', 'Negative']
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Snowflake Inc.' (Row 23): brand_sentiment_score: 88/100 not in ['Positive', 'Neutral', 'Negative']
+______________________ test_all_companies_validation[22] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 82/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Palantir Technologies' (Row 24): brand_sentiment_score: 82/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+______________________ test_all_companies_validation[23] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive / Stable not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Oracle Financial Services Software Limited' (Row 25): brand_sentiment_score: Positive / Stable not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6/5'
+______________________ test_all_companies_validation[24] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Generally Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5 '
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'International Business Machines Corporation ' (Row 26): brand_sentiment_score: Generally Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5 '
+______________________ test_all_companies_validation[25] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Neutral-Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Barclays PLC ' (Row 27): brand_sentiment_score: Neutral-Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+______________________ test_all_companies_validation[26] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Schneider Electric' (Row 28): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+______________________ test_all_companies_validation[27] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Rising. not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.5 / 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Blink Commerce Private Limited ' (Row 29): brand_sentiment_score: Rising. not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.5 / 5'
+______________________ test_all_companies_validation[28] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Excellent; trusted by millions as an ethical brokerage. not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0 / 5  '
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Zerodha Broking Limited ' (Row 30): brand_sentiment_score: Excellent; trusted by millions as an ethical brokerage. not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0 / 5  '
+______________________ test_all_companies_validation[29] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: High not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0 / 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Myntra Designs Private Limited' (Row 31): brand_sentiment_score: High not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0 / 5'
+______________________ test_all_companies_validation[30] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: High not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Nurix Therapeutics, Inc.' (Row 32): brand_sentiment_score: High not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3/5'
+______________________ test_all_companies_validation[31] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: high not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Citigroup Inc.' (Row 33): brand_sentiment_score: high not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+______________________ test_all_companies_validation[32] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: High not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'ZS Associates, Inc.' (Row 34): brand_sentiment_score: High not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+______________________ test_all_companies_validation[33] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: high not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'FLAM Gaming Private Limited' (Row 35): brand_sentiment_score: high not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5'
+______________________ test_all_companies_validation[34] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Highly Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'SAP Labs India Private Limited' (Row 36): brand_sentiment_score: Highly Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3/5'
+______________________ test_all_companies_validation[35] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Xperi Inc.' (Row 37): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+______________________ test_all_companies_validation[36] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6 / 5' | net_promoter_score sentiment: could not convert string to float: '50+'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Consilio LLC' (Row 38): glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6 / 5' | net_promoter_score sentiment: could not convert string to float: '50+'
+______________________ test_all_companies_validation[37] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Moderately Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8 / 5' | net_promoter_score sentiment: could not convert string to float: '30–40'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'BT Group plc' (Row 39): brand_sentiment_score: Moderately Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8 / 5' | net_promoter_score sentiment: could not convert string to float: '30–40'
+______________________ test_all_companies_validation[38] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5 ' | net_promoter_score sentiment: could not convert string to float: '40–50'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Capgemini' (Row 40): glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5 ' | net_promoter_score sentiment: could not convert string to float: '40–50'
+______________________ test_all_companies_validation[39] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 72/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'The Bank of New York Mellon Corporation' (Row 41): brand_sentiment_score: 72/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+______________________ test_all_companies_validation[40] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 80/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Fidelity Investments' (Row 42): brand_sentiment_score: 80/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+______________________ test_all_companies_validation[41] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 76/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'JPMorgan Chase & Co.' (Row 43): brand_sentiment_score: 76/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5'
+______________________ test_all_companies_validation[42] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 78/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Airbus SE' (Row 44): brand_sentiment_score: 78/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+______________________ test_all_companies_validation[43] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 68/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Wells Fargo & Company' (Row 45): brand_sentiment_score: 68/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+______________________ test_all_companies_validation[44] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 82/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.4/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Atlassian Corporation' (Row 46): brand_sentiment_score: 82/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.4/5'
+______________________ test_all_companies_validation[45] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 78/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Nutanix, Inc.' (Row 47): brand_sentiment_score: 78/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+______________________ test_all_companies_validation[46] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 85/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.6/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'DeepMind' (Row 48): brand_sentiment_score: 85/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.6/5'
+______________________ test_all_companies_validation[47] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive / High Trust; Generally positive on security leadership not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5 '
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Akamai Technologies India Pvt. Ltd.' (Row 49): brand_sentiment_score: Positive / High Trust; Generally positive on security leadership not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5 '
+______________________ test_all_companies_validation[48] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive / High Trust; Generally positive on security leadership not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5 '
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Adobe Inc.' (Row 50): brand_sentiment_score: Positive / High Trust; Generally positive on security leadership not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5 '
+______________________ test_all_companies_validation[49] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Strong positive sentiment across enterprise and creative communities not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Genpact Ltd.' (Row 51): brand_sentiment_score: Strong positive sentiment across enterprise and creative communities not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+______________________ test_all_companies_validation[50] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive with niche enterprise reputation not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Uber Technologies, Inc.' (Row 52): brand_sentiment_score: Positive with niche enterprise reputation not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+______________________ test_all_companies_validation[51] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1 / 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Dell Technologies Inc.' (Row 53): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1 / 5'
+______________________ test_all_companies_validation[52] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Even Healthcare Private Limited' (Row 54): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+______________________ test_all_companies_validation[53] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1 / 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Groww Invest Tech Pvt. Ltd.' (Row 55): brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1 / 5'
+______________________ test_all_companies_validation[54] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0 / 5 '
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'MintAir Corp' (Row 56): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0 / 5 '
+______________________ test_all_companies_validation[55] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Mostly positive with strong industry leadership perception not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5' | net_promoter_score sentiment: could not convert string to float: 'High '
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'OpenAI, Inc.' (Row 57): brand_sentiment_score: Mostly positive with strong industry leadership perception not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5' | net_promoter_score sentiment: could not convert string to float: 'High '
+______________________ test_all_companies_validation[56] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1 / 5' | net_promoter_score sentiment: could not convert string to float: '65–70'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Skyhigh Security' (Row 58): glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1 / 5' | net_promoter_score sentiment: could not convert string to float: '65–70'
+______________________ test_all_companies_validation[57] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Generally positive for innovation; mixed leadership sentiment not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8 / 5' | net_promoter_score sentiment: could not convert string to float: 'High customer satisfaction '
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Space Exploration Technologies Corp.' (Row 59): brand_sentiment_score: Generally positive for innovation; mixed leadership sentiment not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8 / 5' | net_promoter_score sentiment: could not convert string to float: 'High customer satisfaction '
+______________________ test_all_companies_validation[58] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.3 / 5' | net_promoter_score sentiment: could not convert string to float: '35–40'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Walmart Inc.' (Row 60): glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.3 / 5' | net_promoter_score sentiment: could not convert string to float: '35–40'
+______________________ test_all_companies_validation[59] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6 / 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Zepto Technologies Private Limited' (Row 61): brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6 / 5'
+______________________ test_all_companies_validation[60] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.6/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'DevRev Cloud India Private Limited' (Row 62): brand_sentiment_score: Very Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.6/5'
+______________________ test_all_companies_validation[61] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2 / 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Increff Technologies Private Limited' (Row 63): brand_sentiment_score: Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2 / 5'
+______________________ test_all_companies_validation[62] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Highly Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'MoveInSync Technologies Private Limited' (Row 64): brand_sentiment_score: Highly Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+______________________ test_all_companies_validation[63] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.6/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'NVIDIA Corporation' (Row 65): brand_sentiment_score: Very Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.6/5'
+______________________ test_all_companies_validation[64] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Highly Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.4/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'ServiceNow, Inc.' (Row 66): brand_sentiment_score: Highly Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.4/5'
+______________________ test_all_companies_validation[65] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Tredence Inc.' (Row 67): brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+______________________ test_all_companies_validation[66] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Strong – institutional trust not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'CME Group Inc.' (Row 68): brand_sentiment_score: Very Strong – institutional trust not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5'
+______________________ test_all_companies_validation[67] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.7/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'HCL Technologies Limited' (Row 69): brand_sentiment_score: Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.7/5'
+______________________ test_all_companies_validation[68] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: High  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5' | net_promoter_score sentiment: could not convert string to float: '50+'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Freshworks Inc.' (Row 70): brand_sentiment_score: High  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5' | net_promoter_score sentiment: could not convert string to float: '50+'
+______________________ test_all_companies_validation[69] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Neutral to Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'HP Inc.' (Row 71): brand_sentiment_score: Neutral to Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+______________________ test_all_companies_validation[70] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Improving; high for innovation. not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Koninklijke Philips N.V.' (Row 72): brand_sentiment_score: Improving; high for innovation. not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+______________________ test_all_companies_validation[71] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Improving; high trust in premium content  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.5/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Warner Bros. Discovery, Inc.' (Row 73): brand_sentiment_score: Improving; high trust in premium content  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.5/5'
+______________________ test_all_companies_validation[72] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'HyperVerge Technologies Private Limited' (Row 74): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+______________________ test_all_companies_validation[73] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Motorq Technologies Private Limited' (Row 75): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3/5'
+______________________ test_all_companies_validation[74] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 88 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Autodesk' (Row 76): brand_sentiment_score: 88 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3/5'
+______________________ test_all_companies_validation[75] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 80 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Electronic Arts' (Row 77): brand_sentiment_score: 80 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5'
+______________________ test_all_companies_validation[76] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5 '
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Morgan Stanley' (Row 78): brand_sentiment_score: Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1/5 '
+______________________ test_all_companies_validation[77] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive (high trust in enterprise/AI; some regulatory concerns) not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.5/5 '
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Microsoft Corporation' (Row 79): brand_sentiment_score: Positive (high trust in enterprise/AI; some regulatory concerns) not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.5/5 '
+______________________ test_all_companies_validation[78] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Darwinbox Digital Solutions Private Limited' (Row 80): brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3/5'
+______________________ test_all_companies_validation[79] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.4/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Epifi Technologies Private Limited' (Row 81): brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.4/5'
+______________________ test_all_companies_validation[80] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive in fintech; Strong developer community not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5' | net_promoter_score sentiment: could not convert string to float: 'Not publicly disclosed'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Juspay Technologies Private Limited' (Row 82): brand_sentiment_score: Positive in fintech; Strong developer community not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5' | net_promoter_score sentiment: could not convert string to float: 'Not publicly disclosed'
+______________________ test_all_companies_validation[81] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Strong positive among consumers; Mixed among employees not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.7–3.9/5' | net_promoter_score sentiment: could not convert string to float: 'Not publicly disclosed'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Flipkart Internet Private Limited' (Row 83): brand_sentiment_score: Strong positive among consumers; Mixed among employees not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.7–3.9/5' | net_promoter_score sentiment: could not convert string to float: 'Not publicly disclosed'
+______________________ test_all_companies_validation[82] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0 / 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Optum' (Row 84): brand_sentiment_score: Positive  not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0 / 5'
+______________________ test_all_companies_validation[83] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'PayPal Holdings, Inc.' (Row 85): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+______________________ test_all_companies_validation[84] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Brand recognition via Bajaj Group not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Bajaj Finserv Health Ltd.' (Row 86): brand_sentiment_score: Brand recognition via Bajaj Group not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.9/5'
+______________________ test_all_companies_validation[85] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 85/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Bain Capability Network' (Row 87): brand_sentiment_score: 85/100 not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+______________________ test_all_companies_validation[86] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.5/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Proactively Inc.' (Row 88): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.5/5'
+______________________ test_all_companies_validation[87] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Samsung PRISM' (Row 89): brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+______________________ test_all_companies_validation[88] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive consumer sentiment not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Acko General Insurance Limited' (Row 90): brand_sentiment_score: Positive consumer sentiment not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5'
+______________________ test_all_companies_validation[89] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Robert Bosch GmbH' (Row 91): brand_sentiment_score: Very positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3/5'
+______________________ test_all_companies_validation[90] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/ 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Concentrix Corporation' (Row 92): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/ 5'
+______________________ test_all_companies_validation[91] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Mixed not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Dunzo Digital Private Limited' (Row 93): brand_sentiment_score: Mixed not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6/5'
+______________________ test_all_companies_validation[92] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Mixed 45% not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.1/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Byju’s' (Row 94): brand_sentiment_score: Mixed 45% not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.1/5'
+______________________ test_all_companies_validation[93] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive 65% not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Cleartrip' (Row 95): brand_sentiment_score: Positive 65% not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8/5'
+______________________ test_all_companies_validation[94] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 72% positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8 out of 5' | net_promoter_score sentiment: could not convert string to float: '45 score'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Cognizant Technology Solutions Corporation' (Row 96): brand_sentiment_score: 72% positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8 out of 5' | net_promoter_score sentiment: could not convert string to float: '45 score'
+______________________ test_all_companies_validation[95] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 65% positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6 out of 5' | net_promoter_score sentiment: could not convert string to float: '32 score'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'DXC Technology Company' (Row 97): brand_sentiment_score: 65% positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6 out of 5' | net_promoter_score sentiment: could not convert string to float: '32 score'
+______________________ test_all_companies_validation[96] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'PhysicsWallah Private Limited' (Row 98): brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.0/5'
+______________________ test_all_companies_validation[97] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Udemy, Inc.' (Row 99): brand_sentiment_score: Very Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.2/5'
+______________________ test_all_companies_validation[98] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.7/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'NTT DATA' (Row 100): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.7/5'
+______________________ test_all_companies_validation[99] _______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.7 out of 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Virtusa Corporation' (Row 101): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.7 out of 5'
+______________________ test_all_companies_validation[100] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8 out of 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'upGrad Education Private Limited' (Row 102): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8 out of 5'
+______________________ test_all_companies_validation[101] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.7 / 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'ZS Associates, Inc.' (Row 103): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.7 / 5'
+______________________ test_all_companies_validation[102] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8 /5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Wipro Limited' (Row 104): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.8 /5'
+______________________ test_all_companies_validation[103] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Generally Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.5/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Paytm Money' (Row 105): brand_sentiment_score: Generally Positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.5/5'
+______________________ test_all_companies_validation[104] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 70% positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1 out of 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Hexagon Capability Center India' (Row 106): brand_sentiment_score: 70% positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1 out of 5'
+______________________ test_all_companies_validation[105] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: 78% positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3 out of 5' | net_promoter_score sentiment: could not convert string to float: '55 score'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'INDmoney Private Limited' (Row 107): brand_sentiment_score: 78% positive not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.3 out of 5' | net_promoter_score sentiment: could not convert string to float: '55 score'
+______________________ test_all_companies_validation[107] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1 / 5 '
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Simplilearn (Simplilearn.com; legally Simplilearn Solutions Private Limited) (Wikipedia)' (Row 109): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '4.1 / 5 '
+______________________ test_all_companies_validation[108] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive 60% not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.7/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'BigBasket' (Row 110): brand_sentiment_score: Positive 60% not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.7/5'
+______________________ test_all_companies_validation[109] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Neutral to Positive 55% not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.4/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Ecom Express' (Row 111): brand_sentiment_score: Neutral to Positive 55% not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.4/5'
+______________________ test_all_companies_validation[110] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Generally positive enterprise sentiment not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6/5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Kyndryl Holdings Inc.' (Row 112): brand_sentiment_score: Generally positive enterprise sentiment not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6/5'
+______________________ test_all_companies_validation[111] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Mixed to positive (strong usage but some complaints) not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.3/5 estimated'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'One MobiKwik Systems Limited' (Row 113): brand_sentiment_score: Mixed to positive (strong usage but some complaints) not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.3/5 estimated'
+______________________ test_all_companies_validation[113] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6 / 5'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'Rupeek' (Row 115): glassdoor_rating: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.6 / 5'
+______________________ test_all_companies_validation[114] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Mixed-positive; Good for learning, pressure noted not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.3/5 ' | net_promoter_score sentiment: could not convert string to float: 'Not publicly disclosed'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company '3i Infotech Ltd.' (Row 116): brand_sentiment_score: Mixed-positive; Good for learning, pressure noted not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.3/5 ' | net_promoter_score sentiment: could not convert string to float: 'Not publicly disclosed'
+______________________ test_all_companies_validation[115] ______________________
+tests/test_company_validation.py:125: in test_all_companies_validation
+    validate_single_company(row, load_rules)
+tests/test_company_validation.py:97: in validate_single_company
+    raise ValueError(" | ".join(errors))
+E   ValueError: brand_sentiment_score: Positive; Strong merchant trust not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.3/5 ' | net_promoter_score sentiment: could not convert string to float: 'Not publicly disclosed'
+
+During handling of the above exception, another exception occurred:
+tests/test_company_validation.py:127: in test_all_companies_validation
+    pytest.fail(f"Company '{company_name}' (Row {company_idx + 2}): {str(e)}")
+E   Failed: Company 'BharatPe' (Row 117): brand_sentiment_score: Positive; Strong merchant trust not in ['Positive', 'Neutral', 'Negative'] | glassdoor_rating: Value must be numeric | net_promoter_score: Value must be numeric | glassdoor_rating sentiment: could not convert string to float: '3.3/5 ' | net_promoter_score sentiment: could not convert string to float: 'Not publicly disclosed'
+=========================== short test summary info ============================
+FAILED tests/test_company_validation.py::test_all_companies_validation[0] - F...
+FAILED tests/test_company_validation.py::test_all_companies_validation[1] - F...
+FAILED tests/test_company_validation.py::test_all_companies_validation[2] - F...
+FAILED tests/test_company_validation.py::test_all_companies_validation[3] - F...
+FAILED tests/test_company_validation.py::test_all_companies_validation[4] - F...
+FAILED tests/test_company_validation.py::test_all_companies_validation[5] - F...
+FAILED tests/test_company_validation.py::test_all_companies_validation[6] - F...
+FAILED tests/test_company_validation.py::test_all_companies_validation[7] - F...
+FAILED tests/test_company_validation.py::test_all_companies_validation[8] - F...
+FAILED tests/test_company_validation.py::test_all_companies_validation[9] - F...
+FAILED tests/test_company_validation.py::test_all_companies_validation[10] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[11] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[12] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[13] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[14] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[15] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[16] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[17] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[18] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[19] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[20] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[21] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[22] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[23] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[24] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[25] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[26] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[27] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[28] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[29] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[30] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[31] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[32] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[33] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[34] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[35] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[36] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[37] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[38] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[39] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[40] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[41] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[42] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[43] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[44] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[45] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[46] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[47] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[48] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[49] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[50] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[51] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[52] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[53] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[54] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[55] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[56] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[57] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[58] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[59] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[60] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[61] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[62] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[63] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[64] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[65] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[66] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[67] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[68] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[69] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[70] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[71] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[72] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[73] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[74] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[75] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[76] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[77] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[78] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[79] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[80] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[81] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[82] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[83] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[84] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[85] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[86] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[87] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[88] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[89] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[90] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[91] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[92] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[93] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[94] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[95] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[96] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[97] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[98] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[99] - ...
+FAILED tests/test_company_validation.py::test_all_companies_validation[100]
+FAILED tests/test_company_validation.py::test_all_companies_validation[101]
+FAILED tests/test_company_validation.py::test_all_companies_validation[102]
+FAILED tests/test_company_validation.py::test_all_companies_validation[103]
+FAILED tests/test_company_validation.py::test_all_companies_validation[104]
+FAILED tests/test_company_validation.py::test_all_companies_validation[105]
+FAILED tests/test_company_validation.py::test_all_companies_validation[107]
+FAILED tests/test_company_validation.py::test_all_companies_validation[108]
+FAILED tests/test_company_validation.py::test_all_companies_validation[109]
+FAILED tests/test_company_validation.py::test_all_companies_validation[110]
+FAILED tests/test_company_validation.py::test_all_companies_validation[111]
+FAILED tests/test_company_validation.py::test_all_companies_validation[113]
+FAILED tests/test_company_validation.py::test_all_companies_validation[114]
+FAILED tests/test_company_validation.py::test_all_companies_validation[115]
+======================== 114 failed, 2 passed in 6.82s =========================

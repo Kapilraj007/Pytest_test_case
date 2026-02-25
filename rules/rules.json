@@ -1,0 +1,16 @@
+{
+  "Brand Sentiment Score": {
+    "type": "enum",
+    "allowed": ["Positive", "Neutral", "Negative"]
+  },
+  "Glassdoor Rating": {
+    "type": "numeric",
+    "min": 0,
+    "max": 5
+  },
+  "Net Promoter Score (NPS)": {
+    "type": "numeric",
+    "min": -100,
+    "max": 100
+  }
+}

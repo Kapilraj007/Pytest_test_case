@@ -1,0 +1,85 @@
+{
+  "ALL_PARAMETERS": {
+    "TC-13.4-01": {
+      "description": "Generate Company B immediately after Company A",
+      "input_type": "Request A → Company A, Request B → Company B",
+      "validation": {
+        "type": "cross_request_isolation_check",
+        "requirements": [
+          "no_attribute_carryover",
+          "no_name_leakage",
+          "no_location_leakage",
+          "no_metric_leakage",
+          "no_narrative_fragment_reuse"
+        ]
+      },
+      "expected_result": "Company B output contains no attributes, names, locations, metrics, or narrative fragments from Company A."
+    },
+    "TC-13.4-02": {
+      "description": "Verify no residual memory after high-context request",
+      "input_type": "Large, complex Company A followed by small Company B",
+      "validation": {
+        "type": "residual_context_check",
+        "requirements": [
+          "no_inherited_detail",
+          "no_irrelevant_context",
+          "output_matches_only_current_input"
+        ]
+      },
+      "expected_result": "Company B output reflects only its own input context; no over-detailed or irrelevant data inherited."
+    },
+    "TC-13.4-03": {
+      "description": "Validate isolation across companies in the same industry",
+      "input_type": "Batch of similar fintech companies",
+      "validation": {
+        "type": "industry_isolation_check",
+        "requirements": [
+          "unique_executives",
+          "unique_metrics",
+          "unique_descriptions",
+          "no_cross_profile_overlap"
+        ]
+      },
+      "expected_result": "Each company profile remains uniquely accurate; no shared executives, metrics, or descriptions appear."
+    },
+    "TC-13.4-04": {
+      "description": "Detect named-entity contamination",
+      "input_type": "Company A with unique executives, then Company B",
+      "validation": {
+        "type": "named_entity_isolation_check",
+        "requirements": [
+          "no_executive_leakage",
+          "no_product_leakage",
+          "no_subsidiary_leakage"
+        ]
+      },
+      "expected_result": "No executives, products, or subsidiaries from Company A appear in Company B output."
+    },
+    "TC-13.4-05": {
+      "description": "Validate isolation across repeated alternating requests",
+      "input_type": "A → B → A → B",
+      "validation": {
+        "type": "alternating_request_consistency_check",
+        "requirements": [
+          "entity_consistency_maintained",
+          "no_drift",
+          "no_blending_between_entities"
+        ]
+      },
+      "expected_result": "Each response remains consistent with its own entity; no drift or blending observed."
+    },
+    "TC-13.4-06": {
+      "description": "Stress-test isolation under batch generation",
+      "input_type": "Batch request of 20 similar companies",
+      "validation": {
+        "type": "batch_isolation_check",
+        "requirements": [
+          "no_duplicate_paragraphs",
+          "no_attribute_carryover",
+          "independent_outputs"
+        ]
+      },
+      "expected_result": "Outputs are independent; no duplicated paragraphs or attribute carryover across records."
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "ALL_PARAMETERS": {
+    "TC-14.1-01": {
+      "description": "Handle unavailable financial data for a private company",
+      "input_type": "Private company with no public financial disclosures",
+      "validation": {
+        "type": "null_financial_handling_check",
+        "requirements": [
+          "financial_sections_return_standardized_na_or_unknown",
+          "no_numeric_hallucination"
+        ]
+      },
+      "expected_result": "Financial sections return standardized NA / Unknown; no numeric hallucination occurs."
+    },
+    "TC-14.1-02": {
+      "description": "Handle undisclosed funding amount gracefully",
+      "input_type": "Company with funding rounds but undisclosed amounts",
+      "validation": {
+        "type": "undisclosed_funding_handling_check",
+        "requirements": [
+          "funding_fields_marked_undisclosed_or_na",
+          "no_inferred_values"
+        ]
+      },
+      "expected_result": "Funding amount fields populated as Undisclosed or NA per standart; no inferred values shown."
+    },
+    "TC-14.1-03": {
+      "description": "Verify consistency of null representations across output",
+      "input_type": "Entity with multiple unavailable attributes",
+      "validation": {
+        "type": "null_token_consistency_check",
+        "requirements": [
+          "single_consistent_null_token",
+          "no_zero_as_null",
+          "no_empty_string_as_null",
+          "no_mixed_placeholders"
+        ]
+      },
+      "expected_result": "All unavailable fields use one consistent null token; no mix of 0,empty string, or placeholders."
+    },
+    "TC-14.1-04": {
+      "description": "Ensure schema completeness when data is unavailable",
+      "input_type": "Entity missing several data points",
+      "validation": {
+        "type": "schema_completeness_with_nulls_check",
+        "requirements": [
+          "all_schema_keys_present",
+          "null_or_na_values_used",
+          "no_structural_gaps"
+        ]
+      },
+      "expected_result": "All schema keys remain present with null/NA values; no structural gaps."
+    },
+    "TC-14.1-05": {
+      "description": "Prevent hallucinated estimates for unavailable data",
+      "input_type": "Private startup with no revenue disclosure",
+      "validation": {
+        "type": "no_estimate_generation_check",
+        "requirements": [
+          "explicit_not_disclosed_or_unkonwn",
+          "no_approximations",
+          "no_generated_ranges"
+        ]
+      },
+      "expected_result": "Output explicitly states Not disclosed/Unkonwn;no approximations or ranges are generated"
+    },
+    "TC-14.1-06": {
+      "description": "Differentiate “not applicable” vs “not disclosed”",
+      "input_type": "Entity where certain fields do not apply",
+      "validation": {
+        "type": "na_vs_unknown_differentiation_check",
+        "requirements": [
+          "na_used_for_not_applicable",
+          "unknown_used_for_not_disclosed",
+          "schema_supported_distinction"
+        ]
+      },
+      "expected_result": "Output correctly distinguishes NA (not applicable) from Unknown (not disclosed), if supported by schema."
+    }
+  }
+}

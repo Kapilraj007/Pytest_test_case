@@ -1,0 +1,82 @@
+{
+  "ALL_PARAMETERS": {
+    "TC-13.3-01": {
+      "description": "Generate profile for a company with extremely long descriptive text",
+      "input_type": "Company with extensive history, products, and narrative sections",
+      "validation": {
+        "type": "no_truncation_check",
+        "requirements": [
+          "no_mid_sentence_cutoff",
+          "all_sections_present",
+          "readable_output"
+        ]
+      },
+      "expected_result": "Output completes without mid-sentence truncation; all sections are present and readable."
+    },
+    "TC-13.3-02": {
+      "description": "Generate profile for a company with many office locations",
+      "input_type": "Entity with 100+ global office entries",
+      "validation": {
+        "type": "list_integrity_check",
+        "requirements": [
+          "all_items_present_or_paginated",
+          "no_abrupt_cutoff"
+        ]
+      },
+      "expected_result": "Output contains all office locations or applies documented pagination/summary logic; no abrupt cutoff."
+    },
+    "TC-13.3-03": {
+      "description": "Verify JSON / schema structural integrity under high token load",
+      "input_type": "High-complexity public company entity",
+      "validation": {
+        "type": "json_structure_validation",
+        "requirements": [
+          "valid_json",
+          "no_missing_braces",
+          "no_incomplete_arrays",
+          "no_unclosed_quotes"
+        ]
+      },
+      "expected_result": "Output parses successfully; no missing braces, quotes, or incomplete arrays."
+    },
+    "TC-13.3-04": {
+      "description": "Detect mid-sentence cutoff due to token exhaustion",
+      "input_type": "Stress entity near max token threshold",
+      "validation": {
+        "type": "logical_boundary_check",
+        "requirements": [
+          "ends_at_sentence_boundary",
+          "no_partial_tokens",
+          "no_broken_words"
+        ]
+      },
+      "expected_result": "Output ends at logical boundary (sentence/section); no partial tokens or broken words."
+    },
+    "TC-13.3-05": {
+      "description": "Validate graceful degradation when token limit is reached",
+      "input_type": "Entity exceeding safe token capacity",
+      "validation": {
+        "type": "graceful_degradation_check",
+        "requirements": [
+          "summarization_applied",
+          "chunking_applied",
+          "continuation_strategy_used",
+          "no_raw_truncation"
+        ]
+      },
+      "expected_result": "System applies summarization, chunking, or continuation strategy instead of truncation."
+    },
+    "TC-13.3-06": {
+      "description": "Ensure mandatory sections are not dropped due to token limits",
+      "input_type": "Max-size entity with all parameters populated",
+      "validation": {
+        "type": "mandatory_section_integrity",
+        "requirements": [
+          "all_mandatory_sections_present",
+          "or_explicitly_flagged_as_summarized"
+        ]
+      },
+      "expected_result": "All mandatory schema sections are present or explicitly flagged as summarized."
+    }
+  }
+}
