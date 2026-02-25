@@ -1,0 +1,11 @@
+{
+  "critical_fields": ["revenue", "funding"],
+  "grade_thresholds": {
+    "A": 0.9,
+    "B": 0.75,
+    "C": 0.6
+  },
+  "recency_cap": {
+    "Outdated": "B-"
+  }
+}

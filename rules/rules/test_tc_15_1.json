@@ -1,0 +1,17 @@
+{
+  "rules": [
+    {
+      "tc_id": "TC_15_1_01",
+      "field": "generation_method",
+      "equals": "LLM_Inferred",
+      "confidence_level": "Low",
+      "is_estimated": true
+    },
+    {
+      "tc_id": "TC_15_1_02",
+      "field": "source",
+      "contains": "SEC",
+      "confidence_level": "High"
+    }
+  ]
+}

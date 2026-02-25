@@ -1,0 +1,17 @@
+{
+  "rules": [
+    {
+      "months_less_than": 3,
+      "recency_status": "Recent"
+    },
+    {
+      "months_between": [6, 12],
+      "recency_status": "Acceptable"
+    },
+    {
+      "months_greater_than": 12,
+      "recency_status": "Outdated",
+      "trigger_revalidation": true
+    }
+  ]
+}
