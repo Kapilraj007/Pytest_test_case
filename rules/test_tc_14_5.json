@@ -1,0 +1,35 @@
+{
+  "test_id": "TC_14.5",
+  "rule_type": "null_propagation",
+  "description": "Derived fields must respect null propagation rules",
+  "propagation_rules": [
+    {
+      "derived_field": "Short Name",
+      "depends_on": [
+        "Company Name"
+      ]
+    },
+    {
+      "derived_field": "Category",
+      "depends_on": [
+        "Nature of Company",
+        "Focus Sectors / Industries"
+      ]
+    },
+    {
+      "derived_field": "Market Share (%)",
+      "depends_on": [
+        "Annual Revenues",
+        "Total Addressable Market (TAM)"
+      ]
+    },
+    {
+      "derived_field": "Runway",
+      "depends_on": [
+        "Total Capital Raised",
+        "Burn Rate"
+      ]
+    }
+  ],
+  "null_policy": "If any dependency is NULL, derived field must be NULL"
+}

@@ -1,0 +1,20 @@
+{
+  "test_id": "TC_14.3",
+  "rule_type": "null_classification",
+  "description": "Differentiate missing, not disclosed, and source failure",
+  "mandatory_fields": [
+    "Company Name",
+    "Category",
+    "Year of Incorporation",
+    "Overview of the Company",
+    "Company Headquarters",
+    "Employee Size",
+    "Services / Offerings / Products",
+    "Website URL",
+    "CEO Name",
+    "Profitability Status"
+  ],
+  "mandatory_null_behavior": "FAIL",
+  "optional_null_behavior": "FLAG_AS_NOT_DISCLOSED",
+  "require_null_reason": true
+}

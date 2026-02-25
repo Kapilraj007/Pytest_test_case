@@ -1,0 +1,29 @@
+{
+  "test_id": "TC_14.2",
+  "rule_type": "non_applicable_fields",
+  "description": "Ensure structurally non-applicable fields are marked N/A and not hallucinated",
+  "conditions": [
+    {
+      "entity_type": "Venture Capital firm",
+      "must_be_na": [
+        "Services / Offerings / Products"
+      ]
+    },
+    {
+      "entity_type": "Bootstrapped startup",
+      "must_be_na": [
+        "Key Investors / Backers",
+        "Recent Funding Rounds",
+        "Total Capital Raised"
+      ]
+    },
+    {
+      "entity_type": "Remote-first company",
+      "must_be_na": [
+        "Office Locations"
+      ]
+    }
+  ],
+  "na_value": "N/A",
+  "prevent_generated_values": true
+}
